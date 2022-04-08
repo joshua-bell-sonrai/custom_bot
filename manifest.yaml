@@ -1,7 +1,7 @@
 # Built-in Sonrai Bot: srn:supersonrai::bot/89c137f3-f665-4aba-9ce3-d34f0090cf1d
 version: 2020-12-21
 type: Prevention
-title: Test Bot Doesnt Do anything
+title: Test Bot Applies Random SCP
 description: This bot appies denny scp, no use case for real application.
 cloud: AWS
 operation: ATTACH_AWS_SCP
