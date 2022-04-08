@@ -1,0 +1,20 @@
+
+   
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "DenySensitivePrivilegeEscalationOnGroup",
+        "Resource" : "*",
+        "Effect": "Deny",
+        "Action": [
+          "s3:PutBucketPolicy"
+        ],
+        "Condition": {
+          "ArnEquals": {
+            "aws:PrincipalArn": "arn:aws:iam::*:group/*"
+          }
+        }
+      }
+    ]
+  }
