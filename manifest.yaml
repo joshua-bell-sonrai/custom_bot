@@ -4,5 +4,6 @@ type: Prevention
 title: Test Bot Doesnt Do anything
 description:  This bot doesnt do anything.
 cloud: AWS
+operation: TEST_OPERATION
 authorName: Joshua Bell
 authorEmail: joshua.bell@sonraisecurity.com
