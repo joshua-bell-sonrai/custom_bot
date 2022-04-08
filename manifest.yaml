@@ -4,6 +4,6 @@ type: Prevention
 title: Test Bot Doesnt Do anything
 description:  This bot doesnt do anything.
 cloud: AWS
-operation: EXECUTE_PYTHON_SCRIPT
+operation: ATTACH_AWS_SCP
 authorName: Joshua Bell
 authorEmail: joshua.bell@sonraisecurity.com
